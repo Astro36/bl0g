@@ -1,0 +1,39 @@
+{
+  "name": "bl0g",
+  "version": "0.1.0",
+  "description": "A Zero Configuration Static Blog Generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astro36/bl0g.git"
+  },
+  "keywords": [
+    "svelte",
+    "zero-configure",
+    "static-site-generator",
+    "blog"
+  ],
+  "author": "Seungjae Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Astro36/bl0g/issues"
+  },
+  "homepage": "https://github.com/Astro36/bl0g#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "polka": "^0.5.2",
+    "sirv": "^0.4.2"
+  },
+  "devDependencies": {
+    "sapper": "^0.27.4",
+    "svelte": "^3.5.4",
+    "svelte-loader": "^2.13.4",
+    "webpack": "^4.35.0"
+  }
+}

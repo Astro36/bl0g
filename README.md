@@ -1,2 +1,3 @@
 # bl0g
-A Zero Configuration Static Blog Generator
+
+> A Zero Configuration Static Blog Generator
